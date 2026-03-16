@@ -1,0 +1,1970 @@
+[
+  {
+    "name": "Afghanistan",
+    "capital": "Kabul",
+    "code": "AF",
+    "flag": "https://flagcdn.com/w320/af.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Åland Islands",
+    "capital": "Mariehamn",
+    "code": "AX",
+    "flag": "https://flagcdn.com/w320/ax.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Albania",
+    "capital": "Tirana",
+    "code": "AL",
+    "flag": "https://flagcdn.com/w320/al.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Algeria",
+    "capital": "Algiers",
+    "code": "DZ",
+    "flag": "https://flagcdn.com/w320/dz.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "American Samoa",
+    "capital": "Pago Pago",
+    "code": "AS",
+    "flag": "https://flagcdn.com/w320/as.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Andorra",
+    "capital": "Andorra la Vella",
+    "code": "AD",
+    "flag": "https://flagcdn.com/w320/ad.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Angola",
+    "capital": "Luanda",
+    "code": "AO",
+    "flag": "https://flagcdn.com/w320/ao.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Anguilla",
+    "capital": "The Valley",
+    "code": "AI",
+    "flag": "https://flagcdn.com/w320/ai.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "capital": "Saint John's",
+    "code": "AG",
+    "flag": "https://flagcdn.com/w320/ag.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "code": "AR",
+    "flag": "https://flagcdn.com/w320/ar.png",
+    "region": "Americas",
+    "continent": "South America"
+  },
+  {
+    "name": "Armenia",
+    "capital": "Yerevan",
+    "code": "AM",
+    "flag": "https://flagcdn.com/w320/am.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Aruba",
+    "capital": "Oranjestad",
+    "code": "AW",
+    "flag": "https://flagcdn.com/w320/aw.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Australia",
+    "capital": "Canberra",
+    "code": "AU",
+    "flag": "https://flagcdn.com/w320/au.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Austria",
+    "capital": "Vienna",
+    "code": "AT",
+    "flag": "https://flagcdn.com/w320/at.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Azerbaijan",
+    "capital": "Baku",
+    "code": "AZ",
+    "flag": "https://flagcdn.com/w320/az.png",
+    "region": "Asia",
+    "continent": "Europe"
+  },
+  {
+    "name": "Bahamas",
+    "capital": "Nassau",
+    "code": "BS",
+    "flag": "https://flagcdn.com/w320/bs.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Bahrain",
+    "capital": "Manama",
+    "code": "BH",
+    "flag": "https://flagcdn.com/w320/bh.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Bangladesh",
+    "capital": "Dhaka",
+    "code": "BD",
+    "flag": "https://flagcdn.com/w320/bd.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Barbados",
+    "capital": "Bridgetown",
+    "code": "BB",
+    "flag": "https://flagcdn.com/w320/bb.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Belarus",
+    "capital": "Minsk",
+    "code": "BY",
+    "flag": "https://flagcdn.com/w320/by.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Belgium",
+    "capital": "Brussels",
+    "code": "BE",
+    "flag": "https://flagcdn.com/w320/be.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Belize",
+    "capital": "Belmopan",
+    "code": "BZ",
+    "flag": "https://flagcdn.com/w320/bz.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Benin",
+    "capital": "Porto-Novo",
+    "code": "BJ",
+    "flag": "https://flagcdn.com/w320/bj.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Bermuda",
+    "capital": "Hamilton",
+    "code": "BM",
+    "flag": "https://flagcdn.com/w320/bm.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Bhutan",
+    "capital": "Thimphu",
+    "code": "BT",
+    "flag": "https://flagcdn.com/w320/bt.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Bolivia",
+    "capital": "Sucre",
+    "code": "BO",
+    "flag": "https://flagcdn.com/w320/bo.png",
+    "region": "Americas",
+    "continent": "South America"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "code": "BA",
+    "flag": "https://flagcdn.com/w320/ba.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Botswana",
+    "capital": "Gaborone",
+    "code": "BW",
+    "flag": "https://flagcdn.com/w320/bw.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Brazil",
+    "capital": "Brasília",
+    "code": "BR",
+    "flag": "https://flagcdn.com/w320/br.png",
+    "region": "Americas",
+    "continent": "South America"
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "capital": "Diego Garcia",
+    "code": "IO",
+    "flag": "https://flagcdn.com/w320/io.png",
+    "region": "Africa",
+    "continent": "Asia"
+  },
+  {
+    "name": "British Virgin Islands",
+    "capital": "Road Town",
+    "code": "VG",
+    "flag": "https://flagcdn.com/w320/vg.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "code": "BN",
+    "flag": "https://flagcdn.com/w320/bn.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Bulgaria",
+    "capital": "Sofia",
+    "code": "BG",
+    "flag": "https://flagcdn.com/w320/bg.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "code": "BF",
+    "flag": "https://flagcdn.com/w320/bf.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Burundi",
+    "capital": "Gitega",
+    "code": "BI",
+    "flag": "https://flagcdn.com/w320/bi.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Cambodia",
+    "capital": "Phnom Penh",
+    "code": "KH",
+    "flag": "https://flagcdn.com/w320/kh.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Cameroon",
+    "capital": "Yaoundé",
+    "code": "CM",
+    "flag": "https://flagcdn.com/w320/cm.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Canada",
+    "capital": "Ottawa",
+    "code": "CA",
+    "flag": "https://flagcdn.com/w320/ca.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Cape Verde",
+    "capital": "Praia",
+    "code": "CV",
+    "flag": "https://flagcdn.com/w320/cv.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Caribbean Netherlands",
+    "capital": "Kralendijk",
+    "code": "BQ",
+    "flag": "https://flagcdn.com/w320/bq.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Cayman Islands",
+    "capital": "George Town",
+    "code": "KY",
+    "flag": "https://flagcdn.com/w320/ky.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Central African Republic",
+    "capital": "Bangui",
+    "code": "CF",
+    "flag": "https://flagcdn.com/w320/cf.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Chad",
+    "capital": "N'Djamena",
+    "code": "TD",
+    "flag": "https://flagcdn.com/w320/td.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Chile",
+    "capital": "Santiago",
+    "code": "CL",
+    "flag": "https://flagcdn.com/w320/cl.png",
+    "region": "Americas",
+    "continent": "South America"
+  },
+  {
+    "name": "China",
+    "capital": "Beijing",
+    "code": "CN",
+    "flag": "https://flagcdn.com/w320/cn.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Christmas Island",
+    "capital": "Flying Fish Cove",
+    "code": "CX",
+    "flag": "https://flagcdn.com/w320/cx.png",
+    "region": "Oceania",
+    "continent": "Asia"
+  },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "capital": "West Island",
+    "code": "CC",
+    "flag": "https://flagcdn.com/w320/cc.png",
+    "region": "Oceania",
+    "continent": "Asia"
+  },
+  {
+    "name": "Colombia",
+    "capital": "Bogotá",
+    "code": "CO",
+    "flag": "https://flagcdn.com/w320/co.png",
+    "region": "Americas",
+    "continent": "South America"
+  },
+  {
+    "name": "Comoros",
+    "capital": "Moroni",
+    "code": "KM",
+    "flag": "https://flagcdn.com/w320/km.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Cook Islands",
+    "capital": "Avarua",
+    "code": "CK",
+    "flag": "https://flagcdn.com/w320/ck.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Costa Rica",
+    "capital": "San José",
+    "code": "CR",
+    "flag": "https://flagcdn.com/w320/cr.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Croatia",
+    "capital": "Zagreb",
+    "code": "HR",
+    "flag": "https://flagcdn.com/w320/hr.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Cuba",
+    "capital": "Havana",
+    "code": "CU",
+    "flag": "https://flagcdn.com/w320/cu.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Curaçao",
+    "capital": "Willemstad",
+    "code": "CW",
+    "flag": "https://flagcdn.com/w320/cw.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Cyprus",
+    "capital": "Nicosia",
+    "code": "CY",
+    "flag": "https://flagcdn.com/w320/cy.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Czechia",
+    "capital": "Prague",
+    "code": "CZ",
+    "flag": "https://flagcdn.com/w320/cz.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Denmark",
+    "capital": "Copenhagen",
+    "code": "DK",
+    "flag": "https://flagcdn.com/w320/dk.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Djibouti",
+    "capital": "Djibouti",
+    "code": "DJ",
+    "flag": "https://flagcdn.com/w320/dj.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Dominica",
+    "capital": "Roseau",
+    "code": "DM",
+    "flag": "https://flagcdn.com/w320/dm.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "code": "DO",
+    "flag": "https://flagcdn.com/w320/do.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "DR Congo",
+    "capital": "Kinshasa",
+    "code": "CD",
+    "flag": "https://flagcdn.com/w320/cd.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Ecuador",
+    "capital": "Quito",
+    "code": "EC",
+    "flag": "https://flagcdn.com/w320/ec.png",
+    "region": "Americas",
+    "continent": "South America"
+  },
+  {
+    "name": "Egypt",
+    "capital": "Cairo",
+    "code": "EG",
+    "flag": "https://flagcdn.com/w320/eg.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "El Salvador",
+    "capital": "San Salvador",
+    "code": "SV",
+    "flag": "https://flagcdn.com/w320/sv.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "capital": "Ciudad de la Paz",
+    "code": "GQ",
+    "flag": "https://flagcdn.com/w320/gq.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Eritrea",
+    "capital": "Asmara",
+    "code": "ER",
+    "flag": "https://flagcdn.com/w320/er.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Estonia",
+    "capital": "Tallinn",
+    "code": "EE",
+    "flag": "https://flagcdn.com/w320/ee.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Eswatini",
+    "capital": "Mbabane",
+    "code": "SZ",
+    "flag": "https://flagcdn.com/w320/sz.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Ethiopia",
+    "capital": "Addis Ababa",
+    "code": "ET",
+    "flag": "https://flagcdn.com/w320/et.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Falkland Islands",
+    "capital": "Stanley",
+    "code": "FK",
+    "flag": "https://flagcdn.com/w320/fk.png",
+    "region": "Americas",
+    "continent": "South America"
+  },
+  {
+    "name": "Faroe Islands",
+    "capital": "Tórshavn",
+    "code": "FO",
+    "flag": "https://flagcdn.com/w320/fo.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Fiji",
+    "capital": "Suva",
+    "code": "FJ",
+    "flag": "https://flagcdn.com/w320/fj.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Finland",
+    "capital": "Helsinki",
+    "code": "FI",
+    "flag": "https://flagcdn.com/w320/fi.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "France",
+    "capital": "Paris",
+    "code": "FR",
+    "flag": "https://flagcdn.com/w320/fr.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "French Guiana",
+    "capital": "Cayenne",
+    "code": "GF",
+    "flag": "https://flagcdn.com/w320/gf.png",
+    "region": "Americas",
+    "continent": "South America"
+  },
+  {
+    "name": "French Polynesia",
+    "capital": "Papeetē",
+    "code": "PF",
+    "flag": "https://flagcdn.com/w320/pf.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "French Southern and Antarctic Lands",
+    "capital": "Port-aux-Français",
+    "code": "TF",
+    "flag": "https://flagcdn.com/w320/tf.png",
+    "region": "Antarctic",
+    "continent": "Antarctica"
+  },
+  {
+    "name": "Gabon",
+    "capital": "Libreville",
+    "code": "GA",
+    "flag": "https://flagcdn.com/w320/ga.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Gambia",
+    "capital": "Banjul",
+    "code": "GM",
+    "flag": "https://flagcdn.com/w320/gm.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Georgia",
+    "capital": "Tbilisi",
+    "code": "GE",
+    "flag": "https://flagcdn.com/w320/ge.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Germany",
+    "capital": "Berlin",
+    "code": "DE",
+    "flag": "https://flagcdn.com/w320/de.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Ghana",
+    "capital": "Accra",
+    "code": "GH",
+    "flag": "https://flagcdn.com/w320/gh.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Gibraltar",
+    "capital": "Gibraltar",
+    "code": "GI",
+    "flag": "https://flagcdn.com/w320/gi.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Greece",
+    "capital": "Athens",
+    "code": "GR",
+    "flag": "https://flagcdn.com/w320/gr.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Greenland",
+    "capital": "Nuuk",
+    "code": "GL",
+    "flag": "https://flagcdn.com/w320/gl.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Grenada",
+    "capital": "St. George's",
+    "code": "GD",
+    "flag": "https://flagcdn.com/w320/gd.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Guadeloupe",
+    "capital": "Basse-Terre",
+    "code": "GP",
+    "flag": "https://flagcdn.com/w320/gp.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Guam",
+    "capital": "Hagåtña",
+    "code": "GU",
+    "flag": "https://flagcdn.com/w320/gu.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Guatemala",
+    "capital": "Guatemala City",
+    "code": "GT",
+    "flag": "https://flagcdn.com/w320/gt.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Guernsey",
+    "capital": "St. Peter Port",
+    "code": "GG",
+    "flag": "https://flagcdn.com/w320/gg.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Guinea",
+    "capital": "Conakry",
+    "code": "GN",
+    "flag": "https://flagcdn.com/w320/gn.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Guinea-Bissau",
+    "capital": "Bissau",
+    "code": "GW",
+    "flag": "https://flagcdn.com/w320/gw.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Guyana",
+    "capital": "Georgetown",
+    "code": "GY",
+    "flag": "https://flagcdn.com/w320/gy.png",
+    "region": "Americas",
+    "continent": "South America"
+  },
+  {
+    "name": "Haiti",
+    "capital": "Port-au-Prince",
+    "code": "HT",
+    "flag": "https://flagcdn.com/w320/ht.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Honduras",
+    "capital": "Tegucigalpa",
+    "code": "HN",
+    "flag": "https://flagcdn.com/w320/hn.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Hong Kong",
+    "capital": "City of Victoria",
+    "code": "HK",
+    "flag": "https://flagcdn.com/w320/hk.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Hungary",
+    "capital": "Budapest",
+    "code": "HU",
+    "flag": "https://flagcdn.com/w320/hu.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Iceland",
+    "capital": "Reykjavik",
+    "code": "IS",
+    "flag": "https://flagcdn.com/w320/is.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "India",
+    "capital": "New Delhi",
+    "code": "IN",
+    "flag": "https://flagcdn.com/w320/in.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Indonesia",
+    "capital": "Jakarta",
+    "code": "ID",
+    "flag": "https://flagcdn.com/w320/id.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Iran",
+    "capital": "Tehran",
+    "code": "IR",
+    "flag": "https://flagcdn.com/w320/ir.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Iraq",
+    "capital": "Baghdad",
+    "code": "IQ",
+    "flag": "https://flagcdn.com/w320/iq.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Ireland",
+    "capital": "Dublin",
+    "code": "IE",
+    "flag": "https://flagcdn.com/w320/ie.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Isle of Man",
+    "capital": "Douglas",
+    "code": "IM",
+    "flag": "https://flagcdn.com/w320/im.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Israel",
+    "capital": "Jerusalem",
+    "code": "IL",
+    "flag": "https://flagcdn.com/w320/il.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Italy",
+    "capital": "Rome",
+    "code": "IT",
+    "flag": "https://flagcdn.com/w320/it.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Ivory Coast",
+    "capital": "Yamoussoukro",
+    "code": "CI",
+    "flag": "https://flagcdn.com/w320/ci.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Jamaica",
+    "capital": "Kingston",
+    "code": "JM",
+    "flag": "https://flagcdn.com/w320/jm.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Japan",
+    "capital": "Tokyo",
+    "code": "JP",
+    "flag": "https://flagcdn.com/w320/jp.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Jersey",
+    "capital": "Saint Helier",
+    "code": "JE",
+    "flag": "https://flagcdn.com/w320/je.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Jordan",
+    "capital": "Amman",
+    "code": "JO",
+    "flag": "https://flagcdn.com/w320/jo.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Kazakhstan",
+    "capital": "Astana",
+    "code": "KZ",
+    "flag": "https://flagcdn.com/w320/kz.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Kenya",
+    "capital": "Nairobi",
+    "code": "KE",
+    "flag": "https://flagcdn.com/w320/ke.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Kiribati",
+    "capital": "South Tarawa",
+    "code": "KI",
+    "flag": "https://flagcdn.com/w320/ki.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Kosovo",
+    "capital": "Pristina",
+    "code": "XK",
+    "flag": "https://flagcdn.com/w320/xk.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Kuwait",
+    "capital": "Kuwait City",
+    "code": "KW",
+    "flag": "https://flagcdn.com/w320/kw.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "code": "KG",
+    "flag": "https://flagcdn.com/w320/kg.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Laos",
+    "capital": "Vientiane",
+    "code": "LA",
+    "flag": "https://flagcdn.com/w320/la.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Latvia",
+    "capital": "Riga",
+    "code": "LV",
+    "flag": "https://flagcdn.com/w320/lv.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Lebanon",
+    "capital": "Beirut",
+    "code": "LB",
+    "flag": "https://flagcdn.com/w320/lb.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Lesotho",
+    "capital": "Maseru",
+    "code": "LS",
+    "flag": "https://flagcdn.com/w320/ls.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Liberia",
+    "capital": "Monrovia",
+    "code": "LR",
+    "flag": "https://flagcdn.com/w320/lr.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Libya",
+    "capital": "Tripoli",
+    "code": "LY",
+    "flag": "https://flagcdn.com/w320/ly.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Liechtenstein",
+    "capital": "Vaduz",
+    "code": "LI",
+    "flag": "https://flagcdn.com/w320/li.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Lithuania",
+    "capital": "Vilnius",
+    "code": "LT",
+    "flag": "https://flagcdn.com/w320/lt.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Luxembourg",
+    "capital": "Luxembourg",
+    "code": "LU",
+    "flag": "https://flagcdn.com/w320/lu.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Madagascar",
+    "capital": "Antananarivo",
+    "code": "MG",
+    "flag": "https://flagcdn.com/w320/mg.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Malawi",
+    "capital": "Lilongwe",
+    "code": "MW",
+    "flag": "https://flagcdn.com/w320/mw.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "code": "MY",
+    "flag": "https://flagcdn.com/w320/my.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Maldives",
+    "capital": "Malé",
+    "code": "MV",
+    "flag": "https://flagcdn.com/w320/mv.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Mali",
+    "capital": "Bamako",
+    "code": "ML",
+    "flag": "https://flagcdn.com/w320/ml.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Malta",
+    "capital": "Valletta",
+    "code": "MT",
+    "flag": "https://flagcdn.com/w320/mt.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Marshall Islands",
+    "capital": "Majuro",
+    "code": "MH",
+    "flag": "https://flagcdn.com/w320/mh.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Martinique",
+    "capital": "Fort-de-France",
+    "code": "MQ",
+    "flag": "https://flagcdn.com/w320/mq.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Mauritania",
+    "capital": "Nouakchott",
+    "code": "MR",
+    "flag": "https://flagcdn.com/w320/mr.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Mauritius",
+    "capital": "Port Louis",
+    "code": "MU",
+    "flag": "https://flagcdn.com/w320/mu.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Mayotte",
+    "capital": "Mamoudzou",
+    "code": "YT",
+    "flag": "https://flagcdn.com/w320/yt.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "code": "MX",
+    "flag": "https://flagcdn.com/w320/mx.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Micronesia",
+    "capital": "Palikir",
+    "code": "FM",
+    "flag": "https://flagcdn.com/w320/fm.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Moldova",
+    "capital": "Chișinău",
+    "code": "MD",
+    "flag": "https://flagcdn.com/w320/md.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Monaco",
+    "capital": "Monaco",
+    "code": "MC",
+    "flag": "https://flagcdn.com/w320/mc.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Mongolia",
+    "capital": "Ulan Bator",
+    "code": "MN",
+    "flag": "https://flagcdn.com/w320/mn.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Montenegro",
+    "capital": "Podgorica",
+    "code": "ME",
+    "flag": "https://flagcdn.com/w320/me.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Montserrat",
+    "capital": "Plymouth",
+    "code": "MS",
+    "flag": "https://flagcdn.com/w320/ms.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Morocco",
+    "capital": "Rabat",
+    "code": "MA",
+    "flag": "https://flagcdn.com/w320/ma.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Mozambique",
+    "capital": "Maputo",
+    "code": "MZ",
+    "flag": "https://flagcdn.com/w320/mz.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Myanmar",
+    "capital": "Naypyidaw",
+    "code": "MM",
+    "flag": "https://flagcdn.com/w320/mm.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Namibia",
+    "capital": "Windhoek",
+    "code": "NA",
+    "flag": "https://flagcdn.com/w320/na.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Nauru",
+    "capital": "Yaren",
+    "code": "NR",
+    "flag": "https://flagcdn.com/w320/nr.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Nepal",
+    "capital": "Kathmandu",
+    "code": "NP",
+    "flag": "https://flagcdn.com/w320/np.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Netherlands",
+    "capital": "Amsterdam",
+    "code": "NL",
+    "flag": "https://flagcdn.com/w320/nl.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "New Caledonia",
+    "capital": "Nouméa",
+    "code": "NC",
+    "flag": "https://flagcdn.com/w320/nc.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "New Zealand",
+    "capital": "Wellington",
+    "code": "NZ",
+    "flag": "https://flagcdn.com/w320/nz.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Nicaragua",
+    "capital": "Managua",
+    "code": "NI",
+    "flag": "https://flagcdn.com/w320/ni.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Niger",
+    "capital": "Niamey",
+    "code": "NE",
+    "flag": "https://flagcdn.com/w320/ne.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "code": "NG",
+    "flag": "https://flagcdn.com/w320/ng.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Niue",
+    "capital": "Alofi",
+    "code": "NU",
+    "flag": "https://flagcdn.com/w320/nu.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Norfolk Island",
+    "capital": "Kingston",
+    "code": "NF",
+    "flag": "https://flagcdn.com/w320/nf.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "North Korea",
+    "capital": "Pyongyang",
+    "code": "KP",
+    "flag": "https://flagcdn.com/w320/kp.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "North Macedonia",
+    "capital": "Skopje",
+    "code": "MK",
+    "flag": "https://flagcdn.com/w320/mk.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "capital": "Saipan",
+    "code": "MP",
+    "flag": "https://flagcdn.com/w320/mp.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Norway",
+    "capital": "Oslo",
+    "code": "NO",
+    "flag": "https://flagcdn.com/w320/no.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Oman",
+    "capital": "Muscat",
+    "code": "OM",
+    "flag": "https://flagcdn.com/w320/om.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Pakistan",
+    "capital": "Islamabad",
+    "code": "PK",
+    "flag": "https://flagcdn.com/w320/pk.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Palau",
+    "capital": "Ngerulmud",
+    "code": "PW",
+    "flag": "https://flagcdn.com/w320/pw.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Palestine",
+    "capital": "Ramallah",
+    "code": "PS",
+    "flag": "https://flagcdn.com/w320/ps.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Panama",
+    "capital": "Panama City",
+    "code": "PA",
+    "flag": "https://flagcdn.com/w320/pa.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "code": "PG",
+    "flag": "https://flagcdn.com/w320/pg.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Paraguay",
+    "capital": "Asunción",
+    "code": "PY",
+    "flag": "https://flagcdn.com/w320/py.png",
+    "region": "Americas",
+    "continent": "South America"
+  },
+  {
+    "name": "Peru",
+    "capital": "Lima",
+    "code": "PE",
+    "flag": "https://flagcdn.com/w320/pe.png",
+    "region": "Americas",
+    "continent": "South America"
+  },
+  {
+    "name": "Philippines",
+    "capital": "Manila",
+    "code": "PH",
+    "flag": "https://flagcdn.com/w320/ph.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Pitcairn Islands",
+    "capital": "Adamstown",
+    "code": "PN",
+    "flag": "https://flagcdn.com/w320/pn.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Poland",
+    "capital": "Warsaw",
+    "code": "PL",
+    "flag": "https://flagcdn.com/w320/pl.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Portugal",
+    "capital": "Lisbon",
+    "code": "PT",
+    "flag": "https://flagcdn.com/w320/pt.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Puerto Rico",
+    "capital": "San Juan",
+    "code": "PR",
+    "flag": "https://flagcdn.com/w320/pr.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Qatar",
+    "capital": "Doha",
+    "code": "QA",
+    "flag": "https://flagcdn.com/w320/qa.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Republic of the Congo",
+    "capital": "Brazzaville",
+    "code": "CG",
+    "flag": "https://flagcdn.com/w320/cg.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Réunion",
+    "capital": "Saint-Denis",
+    "code": "RE",
+    "flag": "https://flagcdn.com/w320/re.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Romania",
+    "capital": "Bucharest",
+    "code": "RO",
+    "flag": "https://flagcdn.com/w320/ro.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Russia",
+    "capital": "Moscow",
+    "code": "RU",
+    "flag": "https://flagcdn.com/w320/ru.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Rwanda",
+    "capital": "Kigali",
+    "code": "RW",
+    "flag": "https://flagcdn.com/w320/rw.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Saint Barthélemy",
+    "capital": "Gustavia",
+    "code": "BL",
+    "flag": "https://flagcdn.com/w320/bl.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "capital": "Jamestown",
+    "code": "SH",
+    "flag": "https://flagcdn.com/w320/sh.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "code": "KN",
+    "flag": "https://flagcdn.com/w320/kn.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Saint Lucia",
+    "capital": "Castries",
+    "code": "LC",
+    "flag": "https://flagcdn.com/w320/lc.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Saint Martin",
+    "capital": "Marigot",
+    "code": "MF",
+    "flag": "https://flagcdn.com/w320/mf.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "capital": "Saint-Pierre",
+    "code": "PM",
+    "flag": "https://flagcdn.com/w320/pm.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "code": "VC",
+    "flag": "https://flagcdn.com/w320/vc.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Samoa",
+    "capital": "Apia",
+    "code": "WS",
+    "flag": "https://flagcdn.com/w320/ws.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "San Marino",
+    "capital": "City of San Marino",
+    "code": "SM",
+    "flag": "https://flagcdn.com/w320/sm.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "São Tomé and Príncipe",
+    "capital": "São Tomé",
+    "code": "ST",
+    "flag": "https://flagcdn.com/w320/st.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Saudi Arabia",
+    "capital": "Riyadh",
+    "code": "SA",
+    "flag": "https://flagcdn.com/w320/sa.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Senegal",
+    "capital": "Dakar",
+    "code": "SN",
+    "flag": "https://flagcdn.com/w320/sn.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Serbia",
+    "capital": "Belgrade",
+    "code": "RS",
+    "flag": "https://flagcdn.com/w320/rs.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Seychelles",
+    "capital": "Victoria",
+    "code": "SC",
+    "flag": "https://flagcdn.com/w320/sc.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Sierra Leone",
+    "capital": "Freetown",
+    "code": "SL",
+    "flag": "https://flagcdn.com/w320/sl.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Singapore",
+    "capital": "Singapore",
+    "code": "SG",
+    "flag": "https://flagcdn.com/w320/sg.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Sint Maarten",
+    "capital": "Philipsburg",
+    "code": "SX",
+    "flag": "https://flagcdn.com/w320/sx.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Slovakia",
+    "capital": "Bratislava",
+    "code": "SK",
+    "flag": "https://flagcdn.com/w320/sk.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Slovenia",
+    "capital": "Ljubljana",
+    "code": "SI",
+    "flag": "https://flagcdn.com/w320/si.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Solomon Islands",
+    "capital": "Honiara",
+    "code": "SB",
+    "flag": "https://flagcdn.com/w320/sb.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Somalia",
+    "capital": "Mogadishu",
+    "code": "SO",
+    "flag": "https://flagcdn.com/w320/so.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "South Africa",
+    "capital": "Pretoria",
+    "code": "ZA",
+    "flag": "https://flagcdn.com/w320/za.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "South Georgia",
+    "capital": "King Edward Point",
+    "code": "GS",
+    "flag": "https://flagcdn.com/w320/gs.png",
+    "region": "Antarctic",
+    "continent": "Antarctica"
+  },
+  {
+    "name": "South Korea",
+    "capital": "Seoul",
+    "code": "KR",
+    "flag": "https://flagcdn.com/w320/kr.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "South Sudan",
+    "capital": "Juba",
+    "code": "SS",
+    "flag": "https://flagcdn.com/w320/ss.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Spain",
+    "capital": "Madrid",
+    "code": "ES",
+    "flag": "https://flagcdn.com/w320/es.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Sri Lanka",
+    "capital": "Sri Jayawardenepura Kotte",
+    "code": "LK",
+    "flag": "https://flagcdn.com/w320/lk.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Sudan",
+    "capital": "Khartoum",
+    "code": "SD",
+    "flag": "https://flagcdn.com/w320/sd.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Suriname",
+    "capital": "Paramaribo",
+    "code": "SR",
+    "flag": "https://flagcdn.com/w320/sr.png",
+    "region": "Americas",
+    "continent": "South America"
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "capital": "Longyearbyen",
+    "code": "SJ",
+    "flag": "https://flagcdn.com/w320/sj.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Sweden",
+    "capital": "Stockholm",
+    "code": "SE",
+    "flag": "https://flagcdn.com/w320/se.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Switzerland",
+    "capital": "Bern",
+    "code": "CH",
+    "flag": "https://flagcdn.com/w320/ch.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Syria",
+    "capital": "Damascus",
+    "code": "SY",
+    "flag": "https://flagcdn.com/w320/sy.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Taiwan",
+    "capital": "Taipei",
+    "code": "TW",
+    "flag": "https://flagcdn.com/w320/tw.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Tajikistan",
+    "capital": "Dushanbe",
+    "code": "TJ",
+    "flag": "https://flagcdn.com/w320/tj.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Tanzania",
+    "capital": "Dodoma",
+    "code": "TZ",
+    "flag": "https://flagcdn.com/w320/tz.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Thailand",
+    "capital": "Bangkok",
+    "code": "TH",
+    "flag": "https://flagcdn.com/w320/th.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Timor-Leste",
+    "capital": "Dili",
+    "code": "TL",
+    "flag": "https://flagcdn.com/w320/tl.png",
+    "region": "Asia",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Togo",
+    "capital": "Lomé",
+    "code": "TG",
+    "flag": "https://flagcdn.com/w320/tg.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Tokelau",
+    "capital": "Fakaofo",
+    "code": "TK",
+    "flag": "https://flagcdn.com/w320/tk.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Tonga",
+    "capital": "Nuku'alofa",
+    "code": "TO",
+    "flag": "https://flagcdn.com/w320/to.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "code": "TT",
+    "flag": "https://flagcdn.com/w320/tt.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Tunisia",
+    "capital": "Tunis",
+    "code": "TN",
+    "flag": "https://flagcdn.com/w320/tn.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Turkey",
+    "capital": "Ankara",
+    "code": "TR",
+    "flag": "https://flagcdn.com/w320/tr.png",
+    "region": "Asia",
+    "continent": "Europe"
+  },
+  {
+    "name": "Turkmenistan",
+    "capital": "Ashgabat",
+    "code": "TM",
+    "flag": "https://flagcdn.com/w320/tm.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "capital": "Cockburn Town",
+    "code": "TC",
+    "flag": "https://flagcdn.com/w320/tc.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Tuvalu",
+    "capital": "Funafuti",
+    "code": "TV",
+    "flag": "https://flagcdn.com/w320/tv.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Uganda",
+    "capital": "Kampala",
+    "code": "UG",
+    "flag": "https://flagcdn.com/w320/ug.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Ukraine",
+    "capital": "Kyiv",
+    "code": "UA",
+    "flag": "https://flagcdn.com/w320/ua.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "code": "AE",
+    "flag": "https://flagcdn.com/w320/ae.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "United Kingdom",
+    "capital": "London",
+    "code": "GB",
+    "flag": "https://flagcdn.com/w320/gb.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "United States",
+    "capital": "Washington, D.C.",
+    "code": "US",
+    "flag": "https://flagcdn.com/w320/us.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "United States Minor Outlying Islands",
+    "capital": "Washington DC",
+    "code": "UM",
+    "flag": "https://flagcdn.com/w320/um.png",
+    "region": "Americas",
+    "continent": "Oceania"
+  },
+  {
+    "name": "United States Virgin Islands",
+    "capital": "Charlotte Amalie",
+    "code": "VI",
+    "flag": "https://flagcdn.com/w320/vi.png",
+    "region": "Americas",
+    "continent": "North America"
+  },
+  {
+    "name": "Uruguay",
+    "capital": "Montevideo",
+    "code": "UY",
+    "flag": "https://flagcdn.com/w320/uy.png",
+    "region": "Americas",
+    "continent": "South America"
+  },
+  {
+    "name": "Uzbekistan",
+    "capital": "Tashkent",
+    "code": "UZ",
+    "flag": "https://flagcdn.com/w320/uz.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Vanuatu",
+    "capital": "Port Vila",
+    "code": "VU",
+    "flag": "https://flagcdn.com/w320/vu.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Vatican City",
+    "capital": "Vatican City",
+    "code": "VA",
+    "flag": "https://flagcdn.com/w320/va.png",
+    "region": "Europe",
+    "continent": "Europe"
+  },
+  {
+    "name": "Venezuela",
+    "capital": "Caracas",
+    "code": "VE",
+    "flag": "https://flagcdn.com/w320/ve.png",
+    "region": "Americas",
+    "continent": "South America"
+  },
+  {
+    "name": "Vietnam",
+    "capital": "Hanoi",
+    "code": "VN",
+    "flag": "https://flagcdn.com/w320/vn.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Wallis and Futuna",
+    "capital": "Mata-Utu",
+    "code": "WF",
+    "flag": "https://flagcdn.com/w320/wf.png",
+    "region": "Oceania",
+    "continent": "Oceania"
+  },
+  {
+    "name": "Western Sahara",
+    "capital": "El Aaiún",
+    "code": "EH",
+    "flag": "https://flagcdn.com/w320/eh.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Yemen",
+    "capital": "Sana'a",
+    "code": "YE",
+    "flag": "https://flagcdn.com/w320/ye.png",
+    "region": "Asia",
+    "continent": "Asia"
+  },
+  {
+    "name": "Zambia",
+    "capital": "Lusaka",
+    "code": "ZM",
+    "flag": "https://flagcdn.com/w320/zm.png",
+    "region": "Africa",
+    "continent": "Africa"
+  },
+  {
+    "name": "Zimbabwe",
+    "capital": "Harare",
+    "code": "ZW",
+    "flag": "https://flagcdn.com/w320/zw.png",
+    "region": "Africa",
+    "continent": "Africa"
+  }
+]
