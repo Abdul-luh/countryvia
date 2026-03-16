@@ -22,12 +22,14 @@
         "backgroundImage": "./assets/images/splash-icon.png",
         "monochromeImage": "./assets/images/splash-icon.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.abdullah_odulate.countrivia",
+      "versionCode": "android"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/splash-icon.png"
     },
     "plugins": [
       "expo-router",
