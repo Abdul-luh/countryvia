@@ -21,7 +21,7 @@ export const Header: React.FC = () => {
     >
       <View style={styles.logoContainer}>
         <Text style={[styles.title, { color: isDark ? "#fff" : "#333" }]}>
-          Coun<Text style={styles.highlight}>trivia</Text>
+          Coun<Text style={styles.tHighlight}>T</Text><Text style={styles.highlight}>rivia</Text>
         </Text>
       </View>
 
@@ -64,6 +64,9 @@ const styles = StyleSheet.create({
   },
   highlight: {
     color: "#1e88e5",
+  },
+  tHighlight: {
+    color: "#f1c40f",
   },
   actions: {
     flexDirection: "row",

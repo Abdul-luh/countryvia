@@ -64,3 +64,37 @@ export const generateQuestion = (
     correctAnswer,
   };
 };
+export const generateQuizForLevel = (level: number, type: "flag" | "capital"): Question[] => {
+  const COUNTRIES_PER_LEVEL = 10;
+  const startIndex = (level - 1) * COUNTRIES_PER_LEVEL;
+  const levelCountries = countries.slice(startIndex, startIndex + COUNTRIES_PER_LEVEL);
+  
+  return levelCountries.map(country => {
+    const correctAnswer = type === "flag" ? country.name : country.capital;
+    
+    // Distractors from the same region if possible, otherwise anywhere in countries pool
+    let distractors = countries
+      .filter((c) => c.code !== country.code && c.region === country.region)
+      .map((c) => (type === "flag" ? c.name : c.capital))
+      .filter(val => !!val);
+    
+    if (distractors.length < 3) {
+      distractors = countries
+        .filter((c) => c.code !== country.code)
+        .map((c) => (type === "flag" ? c.name : c.capital))
+        .filter(val => !!val);
+    }
+    
+    // Deduplicate and ensure correct answer is not in distractors
+    const uniqueDistractors = Array.from(new Set(distractors)).filter(d => d !== correctAnswer);
+    const selectedDistractors = shuffle(uniqueDistractors).slice(0, 3);
+    const options = shuffle([correctAnswer, ...selectedDistractors]);
+    
+    return {
+      type,
+      country: country as Country,
+      options,
+      correctAnswer,
+    };
+  });
+};

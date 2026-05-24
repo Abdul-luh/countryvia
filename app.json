@@ -10,7 +10,11 @@
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f8f9fa",
+      "dark": {
+        "image": "./assets/images/splash-icon.png",
+        "backgroundColor": "#121212"
+      }
     },
     "ios": {
       "supportsTablet": true
@@ -24,7 +28,7 @@
       },
       "predictiveBackGestureEnabled": false,
       "package": "com.abdullah_odulate.countrivia",
-      "versionCode": "android"
+      "versionCode": 1
     },
     "web": {
       "bundler": "metro",

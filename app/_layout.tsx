@@ -3,9 +3,10 @@ import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
+import { View } from 'react-native';
 import 'react-native-reanimated';
 
-import { useColorScheme } from '@/components/useColorScheme';
+import { useProgressStore } from '../stores/progressStore';
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -37,17 +38,21 @@ export default function RootLayout() {
   }, [loaded]);
 
   if (!loaded) {
-    return null;
+    // Show themed background while fonts load — prevents white flash
+    const theme = useProgressStore.getState().theme;
+    const bg = theme === 'dark' ? '#121212' : '#f8f9fa';
+    return <View style={{ flex: 1, backgroundColor: bg }} />;
   }
 
   return <RootLayoutNav />;
 }
 
 function RootLayoutNav() {
-  const colorScheme = useColorScheme();
+  const { theme } = useProgressStore();
+  const isDark = theme === 'dark';
 
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+    <ThemeProvider value={isDark ? DarkTheme : DefaultTheme}>
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="modal" options={{ presentation: 'modal' }} />

@@ -41,22 +41,20 @@ export default function TabLayout() {
           }}
         />
         <Tabs.Screen
-          name="quiz"
-          options={{
-            title: "Quiz",
-            tabBarIcon: ({ color }) => (
-              <GraduationCap size={24} color={color} />
-            ),
-          }}
-        />
-        <Tabs.Screen
           name="progress"
           options={{
             title: "Stats",
             tabBarIcon: ({ color }) => <BarChart3 size={24} color={color} />,
           }}
         />
+        <Tabs.Screen
+          name="quiz"
+          options={{
+            href: null,
+          }}
+        />
       </Tabs>
     </View>
   );
 }
+

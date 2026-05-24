@@ -1,9 +1,9 @@
 import { useRouter } from "expo-router";
 import {
   Activity,
-  BookOpen,
   ChevronRight,
-  GraduationCap,
+  Flag,
+  MapPin,
   Trophy,
 } from "lucide-react-native";
 import React from "react";
@@ -30,7 +30,9 @@ export default function HomeScreen() {
     >
       <Animated.View entering={FadeInUp.delay(100)} style={styles.header}>
         <Text style={styles.welcome}>Welcome to</Text>
-        <Text style={[styles.title, { color: textColor }]}>Countrivia</Text>
+        <Text style={[styles.title, { color: textColor }]}>
+          Coun<Text style={{ color: "#f1c40f" }}>T</Text><Text style={{ color: "#1e88e5" }}>rivia</Text>
+        </Text>
         <Text style={[styles.subtitle, { color: subtextColor }]}>
           The fun way to learn the world!
         </Text>
@@ -68,7 +70,7 @@ export default function HomeScreen() {
       >
         <Pressable
           style={[styles.menuItem, { backgroundColor: cardBg }]}
-          onPress={() => router.push("/learn")}
+          onPress={() => router.push({ pathname: "/learn", params: { mode: "flag" } })}
         >
           <View
             style={[
@@ -76,14 +78,14 @@ export default function HomeScreen() {
               { backgroundColor: isDark ? "#1a237e" : "#e3f2fd" },
             ]}
           >
-            <BookOpen color="#1e88e5" size={28} />
+            <Flag color="#1e88e5" size={28} />
           </View>
           <View style={styles.menuText}>
             <Text style={[styles.menuTitle, { color: textColor }]}>
-              Learn Mode
+              Learn & Quiz Flags
             </Text>
             <Text style={[styles.menuSubtitle, { color: subtextColor }]}>
-              Browse all country flags & capitals
+              Master country flags and unlock levels
             </Text>
           </View>
           <ChevronRight color={isDark ? "#666" : "#ccc"} />
@@ -91,7 +93,7 @@ export default function HomeScreen() {
 
         <Pressable
           style={[styles.menuItem, { backgroundColor: cardBg }]}
-          onPress={() => router.push("/quiz")}
+          onPress={() => router.push({ pathname: "/learn", params: { mode: "capital" } })}
         >
           <View
             style={[
@@ -99,19 +101,20 @@ export default function HomeScreen() {
               { backgroundColor: isDark ? "#1b5e20" : "#f1f8e9" },
             ]}
           >
-            <GraduationCap color="#43a047" size={28} />
+            <MapPin color="#43a047" size={28} />
           </View>
           <View style={styles.menuText}>
             <Text style={[styles.menuTitle, { color: textColor }]}>
-              Start Quiz
+              Learn & Quiz Capitals
             </Text>
             <Text style={[styles.menuSubtitle, { color: subtextColor }]}>
-              Test your knowledge and level up
+              Learn capitals of countries and level up
             </Text>
           </View>
           <ChevronRight color={isDark ? "#666" : "#ccc"} />
         </Pressable>
       </Animated.View>
+
     </ScrollView>
   );
 }
