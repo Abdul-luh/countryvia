@@ -1,16 +1,50 @@
-import { Tabs } from "expo-router";
-import { BarChart3, BookOpen, GraduationCap, Home } from "lucide-react-native";
-import React from "react";
-import { View } from "react-native";
+import { Tabs, useRouter } from "expo-router";
+import { BarChart3, BookOpen, Home } from "lucide-react-native";
+import React, { useRef } from "react";
+import { PanResponder, View } from "react-native";
 import { Header } from "../../components/Header";
 import { useProgressStore } from "../../stores/progressStore";
 
+// Tab order that matches the Tabs.Screen definitions
+const TAB_ROUTES = ["index", "learn", "progress"] as const;
+
 export default function TabLayout() {
+  const router = useRouter();
   const { theme } = useProgressStore();
   const isDark = theme === "dark";
 
+  // Track which tab is active by index so we know swipe boundaries
+  const activeTabIndex = useRef(0);
+
+  const panResponder = useRef(
+    PanResponder.create({
+      // Only claim the gesture if horizontal movement dominates
+      onMoveShouldSetPanResponder: (_, gs) =>
+        Math.abs(gs.dx) > 40 && Math.abs(gs.dx) > Math.abs(gs.dy) * 1.5,
+      onPanResponderRelease: (_, gs) => {
+        if (gs.dx < -50) {
+          // Swipe left → next tab
+          const next = Math.min(
+            activeTabIndex.current + 1,
+            TAB_ROUTES.length - 1
+          );
+          activeTabIndex.current = next;
+          router.navigate(`/${TAB_ROUTES[next] === "index" ? "" : TAB_ROUTES[next]}` as any);
+        } else if (gs.dx > 50) {
+          // Swipe right → previous tab
+          const prev = Math.max(activeTabIndex.current - 1, 0);
+          activeTabIndex.current = prev;
+          router.navigate(`/${TAB_ROUTES[prev] === "index" ? "" : TAB_ROUTES[prev]}` as any);
+        }
+      },
+    })
+  ).current;
+
   return (
-    <View style={{ flex: 1, backgroundColor: isDark ? "#121212" : "#f8f9fa" }}>
+    <View
+      style={{ flex: 1, backgroundColor: isDark ? "#121212" : "#f8f9fa" }}
+      {...panResponder.panHandlers}
+    >
       <Header />
       <Tabs
         screenOptions={{
@@ -24,6 +58,14 @@ export default function TabLayout() {
             paddingBottom: 8,
           },
           tabBarInactiveTintColor: isDark ? "#888" : "#ccc",
+        }}
+        screenListeners={{
+          tabPress: (e) => {
+            // Keep activeTabIndex in sync when user taps the tab bar
+            const name = (e.target as string).split("-")[0];
+            const idx = TAB_ROUTES.indexOf(name as any);
+            if (idx !== -1) activeTabIndex.current = idx;
+          },
         }}
       >
         <Tabs.Screen
@@ -57,4 +99,3 @@ export default function TabLayout() {
     </View>
   );
 }
-

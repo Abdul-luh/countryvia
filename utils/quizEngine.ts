@@ -67,19 +67,22 @@ export const generateQuestion = (
 export const generateQuizForLevel = (level: number, type: "flag" | "capital"): Question[] => {
   const COUNTRIES_PER_LEVEL = 10;
   const startIndex = (level - 1) * COUNTRIES_PER_LEVEL;
-  const levelCountries = countries.slice(startIndex, startIndex + COUNTRIES_PER_LEVEL);
+  // Shuffle the level countries so quiz order is randomized
+  const levelCountries = shuffle(
+    countries.slice(startIndex, startIndex + COUNTRIES_PER_LEVEL) as Country[]
+  );
   
   return levelCountries.map(country => {
     const correctAnswer = type === "flag" ? country.name : country.capital;
     
     // Distractors from the same region if possible, otherwise anywhere in countries pool
-    let distractors = countries
+    let distractors = levelCountries
       .filter((c) => c.code !== country.code && c.region === country.region)
       .map((c) => (type === "flag" ? c.name : c.capital))
       .filter(val => !!val);
     
     if (distractors.length < 3) {
-      distractors = countries
+      distractors = levelCountries
         .filter((c) => c.code !== country.code)
         .map((c) => (type === "flag" ? c.name : c.capital))
         .filter(val => !!val);

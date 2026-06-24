@@ -17,7 +17,11 @@
       }
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abdullahodulate.countrivia",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -48,6 +52,13 @@
       "eas": {
         "projectId": "8fdcc108-841b-46c5-a859-75ece6f386c2"
       }
-    }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8fdcc108-841b-46c5-a859-75ece6f386c2"
+    },
+    "owner": "abdullah_odulate"
   }
 }

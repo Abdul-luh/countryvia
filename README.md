@@ -135,6 +135,7 @@ countrivia/
 6. Review your results, see your stars, and proceed to the **next lesson**.
 
 ---
+download here: [https://expo.dev/accounts/abdullah_odulate/projects/countrivia/builds/e9460dd5-b9a0-4f87-9ed3-bd2624b518db](https://expo.dev/accounts/abdullah_odulate/projects/countrivia/builds/e9460dd5-b9a0-4f87-9ed3-bd2624b518db)
 
 ## 📜 Licence
 

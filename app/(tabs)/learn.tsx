@@ -6,6 +6,7 @@ import {
   ChevronLeft,
   ChevronRight,
   Eye,
+  EyeOff,
   Flag,
   Lock,
   MapPin,
@@ -32,7 +33,7 @@ import Animated, {
   FadeIn,
   FadeInDown,
   FadeInRight,
-  SlideInDown,
+  FadeInUp,
 } from "react-native-reanimated";
 import countries from "../../data/countries.json";
 import { useProgressStore } from "../../stores/progressStore";
@@ -193,10 +194,12 @@ export default function LearnScreen() {
       setHasAnswered(false);
       setQuestionStartTime(Date.now());
     } else {
-      // Completed all 10 questions
-      const totalDuration = questionDurations.reduce((a, b) => a + b, 0);
+      // Completed all 10 questions — compute final durations synchronously
+      // (selectedOption's duration was already pushed in handleOptionSelect)
+      const allDurations = questionDurations; // already includes the last answer
+      const totalDuration = allDurations.reduce((a, b) => a + b, 0);
       const passed = quizScore === 10; // Perfect score (10/10) required to pass
-      
+
       // Save stats in store
       recordQuizAttempt(
         selectedLevel!,
@@ -205,7 +208,7 @@ export default function LearnScreen() {
         Math.round(totalDuration),
         passed
       );
-      
+
       setQuizFinished(true);
     }
   };
@@ -244,7 +247,7 @@ export default function LearnScreen() {
           style={[styles.container, { backgroundColor: containerBg }]}
           contentContainerStyle={styles.resultsContent}
         >
-          <Animated.View entering={FadeIn.duration(400)} style={styles.resultCard}>
+          <Animated.View entering={FadeIn.duration(400)} style={[styles.resultCard, { backgroundColor: cardBg }]}>
             <View style={styles.resultHeader}>
               {passed ? (
                 <>
@@ -291,13 +294,13 @@ export default function LearnScreen() {
               <View style={styles.resultsStatBox}>
                 <Text style={styles.resultsStatLabel}>Total Duration</Text>
                 <Text style={[styles.resultsStatValue, { color: textColor }]}>
-                  {questionDurations.reduce((a, b) => a + b, 0).toFixed(1)}s
+                  {quizHistoryAnswers.reduce((a, b) => a + b.duration, 0).toFixed(1)}s
                 </Text>
               </View>
               <View style={styles.resultsStatBox}>
                 <Text style={styles.resultsStatLabel}>Avg. Speed</Text>
                 <Text style={[styles.resultsStatValue, { color: textColor }]}>
-                  {(questionDurations.reduce((a, b) => a + b, 0) / 10).toFixed(1)}s/q
+                  {(quizHistoryAnswers.reduce((a, b) => a + b.duration, 0) / Math.max(1, quizHistoryAnswers.length)).toFixed(1)}s/q
                 </Text>
               </View>
             </View>
@@ -492,7 +495,7 @@ export default function LearnScreen() {
         {/* Slide-Up Feedback Sheet */}
         {hasAnswered && (
           <Animated.View
-            entering={SlideInDown.springify().damping(15)}
+            entering={FadeInUp.duration(150).springify().damping(80).stiffness(200)}
             style={[
               styles.feedbackSheet,
               {
@@ -615,6 +618,12 @@ export default function LearnScreen() {
                             >
                               <Volume2 size={22} color={accentColor} />
                             </Pressable>
+                            <Pressable
+                              style={styles.closeBtn}
+                              onPress={() => toggleReveal(item.code)}
+                            >
+                              <EyeOff size={20} color="#888" />
+                            </Pressable>
                           </View>
                           <Text style={styles.revealedCapital}>
                             Capital: {item.capital}
@@ -660,6 +669,12 @@ export default function LearnScreen() {
                               }
                             >
                               <Volume2 size={22} color={accentColor} />
+                            </Pressable>
+                            <Pressable
+                              style={styles.closeBtn}
+                              onPress={() => toggleReveal(item.code)}
+                            >
+                              <EyeOff size={20} color="#888" />
                             </Pressable>
                           </View>
                           <Text style={styles.revealedCountrySubtitle}>
@@ -1126,6 +1141,14 @@ const styles = StyleSheet.create({
     height: 32,
     borderRadius: 16,
     backgroundColor: "rgba(30,136,229,0.08)",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  closeBtn: {
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    backgroundColor: "rgba(0,0,0,0.05)",
     justifyContent: "center",
     alignItems: "center",
   },
