@@ -1,12 +1,12 @@
 import { Tabs, useRouter } from "expo-router";
-import { BarChart3, BookOpen, Home } from "lucide-react-native";
+import { BarChart3, BookOpen, Gamepad2, Globe, Home } from "lucide-react-native";
 import React, { useRef } from "react";
 import { PanResponder, View } from "react-native";
 import { Header } from "../../components/Header";
 import { useProgressStore } from "../../stores/progressStore";
 
 // Tab order that matches the Tabs.Screen definitions
-const TAB_ROUTES = ["index", "learn", "progress"] as const;
+const TAB_ROUTES = ["index", "learn", "multiplayer", "progress"] as const;
 
 export default function TabLayout() {
   const router = useRouter();
@@ -80,6 +80,13 @@ export default function TabLayout() {
           options={{
             title: "Learn",
             tabBarIcon: ({ color }) => <BookOpen size={24} color={color} />,
+          }}
+        />
+        <Tabs.Screen
+          name="multiplayer"
+          options={{
+            title: "Multiplayer",
+            tabBarIcon: ({ color }) => <Gamepad2 size={24} color={color} />,
           }}
         />
         <Tabs.Screen
