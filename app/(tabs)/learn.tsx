@@ -198,7 +198,7 @@ export default function LearnScreen() {
       // (selectedOption's duration was already pushed in handleOptionSelect)
       const allDurations = questionDurations; // already includes the last answer
       const totalDuration = allDurations.reduce((a, b) => a + b, 0);
-      const passed = quizScore === 10; // Perfect score (10/10) required to pass
+      const passed = quizScore >= 7; // At least 7/10 required to pass (up to 3 wrong)
 
       // Save stats in store
       recordQuizAttempt(
@@ -258,7 +258,7 @@ export default function LearnScreen() {
                     Congratulations! 🎉
                   </Text>
                   <Text style={[styles.resultSubtitle, { color: textColor }]}>
-                    Level Passed Perfect 10/10!
+                    Level Passed! 7/10 or higher required.
                   </Text>
                   <View style={styles.starsWrapper}>
                     {renderStars(starsEarned)}
@@ -276,7 +276,7 @@ export default function LearnScreen() {
                     Quiz Failed
                   </Text>
                   <Text style={[styles.resultSubtitle, { color: subtextColor }]}>
-                    Score: {quizScore}/10. Perfect 10/10 score required to unlock next level.
+                     Score: {quizScore}/10. You need at least 7/10 to unlock the next level.
                   </Text>
                   <View style={styles.starsWrapper}>
                     {renderStars(0)}
@@ -777,7 +777,7 @@ export default function LearnScreen() {
             {activeMode === "flag" ? "Flags Learning Road" : "Capitals Roadmap"}
           </Text>
           <Text style={[styles.subtitle, { color: subtextColor }]}>
-            Pass each level's 10/10 quiz to unlock the next challenge!
+             Pass each level's quiz (7/10 or higher) to unlock the next challenge!
           </Text>
         </View>
 
